@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>float</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 960px;
+        background-color: blanchedalmond;
+        margin: auto;
+        /* overflow: hidden; */
+      }
+      .col {
+        width: 280px;
+        margin: 10px;
+        padding: 10px;
+        background-color: #ccc;
+        float: left;
+      }
+      .col img {
+        width: 100%;
+      }
+      .clear-block {
+        /* clear屬性 撐開整個畫面，跑到浮動物件後方 */
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col">
+        <img src="https://source.unsplash.com/user/erondu/250x150" />
+        <h3>title</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,
+          numquam veniam itaque earum modi porro eveniet perspiciatis dolor.
+          Officiis officia earum quod labore tempore odit consequatur ea,
+          maiores aliquid esse.
+        </p>
+      </div>
+      <div class="col">
+        <img src="https://source.unsplash.com/user/erondu/250x150" />
+        <h3>title</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,
+          numquam veniam itaque earum modi porro eveniet perspiciatis dolor.
+          Officiis officia earum quod labore tempore odit consequatur ea,
+          maiores aliquid esse.
+        </p>
+      </div>
+      <div class="col">
+        <img src="https://source.unsplash.com/user/erondu/250x150" />
+        <h3>title</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,
+          numquam veniam itaque earum modi porro eveniet perspiciatis dolor.
+          Officiis officia earum quod labore tempore odit consequatur ea,
+          maiores aliquid esse.
+        </p>
+      </div>
+      <!-- clear 浮動物件後方-->
+      <div class="clear-block"></div>
+    </div>
+  </body>
+</html>

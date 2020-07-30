@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        display: inline;
+      }
+      h1 {
+        display: inline;
+      }
+      p {
+        display: inline;
+      }
+      a {
+        /* <!-- inline-block 以inline的方式呈現，但同時擁有block的屬性 
+    可設定元素的寬高/margin/padding
+    --> */
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: #aaa;
+        width: 100px;
+        padding: 40px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 兩大屬性 -->
+    <!-- block  不管多寬占掉一整個空間 -->
+    <!-- inline  跟其他屬性排在一起 // 無法設定長跟高-->
+    <!-- inline-block 以inline的方式呈現，但同時擁有block的屬性 
+    可設定元素的寬高/margin/padding
+    -->
+
+    <!-- <h1>block</h1> -->
+    <h1>title</h1>
+    <!-- <p>block</p> -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      <a href="">Accusamus</a> ipsa enim impedit voluptatem delectus aliquam
+      illum, <strong>provident</strong> eaque facilis, natus qui
+      <span>span</span>reprehenderit veritatis ab dolores deleniti omnis optio
+      quod corrupti?
+    </p>
+
+    <ul>
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+      <li>list</li>
+    </ul>
+    <!-- <div>block</div> -->
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+    </div>
+    dfafdsf
+  </body>
+</html>
